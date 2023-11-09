@@ -1,0 +1,19 @@
+body{
+    background-color: skyblue ;
+     font-family: cursive;
+}
+form{
+    border: 3px solid black;
+    size: 5px;
+}
+input:required{
+    border: 2px groove violet;
+}
+input:not(:required){
+    border: 2px dashed violet;
+}
+input:focus{
+    background-color: silver;
+    font-weight: bold;
+}
+
